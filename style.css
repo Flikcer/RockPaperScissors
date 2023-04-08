@@ -1,0 +1,80 @@
+/* Add some basic styles to the body */
+body {
+  background-color: #f5f5f5;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+/* Style the header */
+h1 {
+  color: #333;
+  font-size: 3rem;
+  margin-top: 50px;
+}
+
+/* Style the score section */
+#score {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+#score p {
+  font-size: 2rem;
+  margin-right: 30px;
+}
+
+#score span {
+  color: #333;
+  font-weight: bold;
+}
+
+/* Style the result section */
+#result {
+  font-size: 2rem;
+  margin-top: 50px;
+}
+
+/* Style the player and computer choice sections */
+#player-choice,
+#computer-choice {
+  font-size: 2rem;
+  margin-top: 30px;
+}
+
+/* Style the icons */
+#icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+.icon {
+  width: 200px;
+  height: 200px;
+  border: 2px solid #333;
+  border-radius: 50%;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease-in-out;
+}
+
+.choice {
+  width: 150px;
+  height: 150px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Style the selected icon */
+.selected {
+  transform: scale(1.1);
+  border-color: #333;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
